@@ -1,0 +1,121 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+body {
+  background-color: #D6E4F0;
+  font-family:'Raleway', sans-serif;
+  color: #1E56A0;
+  font-size: 14;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color:#1E56A0;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  padding: 5;
+}
+h1 {
+ font-size: 24 ;
+}
+
+h2 {
+ font-size: 22;
+ padding-bottom: 20;
+}
+
+h3 {
+ font-size: 14 ;
+}
+
+.cover  {
+  max-width: 80;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+  max-width: 100;
+  border: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.title {
+  color:#163172;
+  font-size: 28;
+  margin-bottom: -20px;
+}
+
+a {
+  text-decoration: none;
+  color : #163172;
+}
+
+a:hover {
+  opacity: 75%;
+}
+
+td {
+  padding: 10px;
+  margin: 10 px;
+  border-top-style: solid;
+  border: 0,5;
+  border-top-color: #D6E4F0;
+}
+
+.card {
+  background-color: #F6F6F6;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #F6F6F6;
+  border-radius: 6px;
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+
+.inline-list, li, i {
+  display:inline;
+  font-size: 50;
+  text-align: center;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.fa {
+  display: inline-block;
+  color: #D6E4F0;
+  margin-left: auto;
+  margin-right: auto;
+/*  margin: 20px 20px 20px 20px;
+*/}
