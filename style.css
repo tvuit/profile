@@ -142,6 +142,10 @@ td {
   padding: 0px 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
 
-
+.amazon {
+  max-width: 120;
+  padding-top: 10;
+  text-align: right;
 }
