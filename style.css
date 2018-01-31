@@ -5,7 +5,7 @@
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+   For a screen < 720px, this CSS will be read
   .container {
     width: 500px;
   }
@@ -82,7 +82,8 @@ a {
 }
 
 a:hover {
-  opacity: 75%;
+  color: blue;
+  opacity: 10%;
 }
 
 td {
@@ -119,3 +120,28 @@ td {
   margin-right: auto;
 /*  margin: 20px 20px 20px 20px;
 */}
+
+#sidebar {
+  position: fixed;
+  background-color: #163172;
+  width: 13%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+#page-content {
+  margin-left: 14%;
+}
+
+.side-icon li, i {
+  display: inline-block;
+  font-size: 60;
+  text-align: center;
+  margin: auto;
+  padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
